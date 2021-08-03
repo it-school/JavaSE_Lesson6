@@ -1,24 +1,23 @@
-
 class BinaryDigit {
-    public static String result = "";
-    private static void Converter(int n) {
-        int temp;
+   public static String result = "";
 
-        temp = n % 2;
+   private static void Converter(int n) {
+      int temp;
 
-        if (n >= 2)
-            Converter(n / 2);
+      temp = n % 2;
 
-        result += temp;
-        System.out.print(temp);
-    }
+      if (n >= 2)
+         Converter(n / 2);
 
-    public static void main(String[] args)
-    {
-        int n = 16;
+      result += temp;
+      System.out.print(temp);
+   }
 
-        Converter(n);
-        System.out.println();
-        System.out.println(String.format("%08d", Integer.parseInt(result)));
-    }
+   public static void main(String[] args) {
+      int n = 16;
+
+      Converter(n);
+      System.out.println();
+      System.out.println(String.format("%08d", Integer.parseInt(result)));
+   }
 }
