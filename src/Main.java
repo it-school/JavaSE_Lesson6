@@ -1,3 +1,4 @@
+import classWork.Cat;
 import classWork.Person;
 
 public class Main {
@@ -21,8 +22,8 @@ public class Main {
       Person person = new Person(" aNONYMOUS", 20, "Odessa");
       System.out.println(person);
 
-
-
+      Cat cat1 = new Cat("QWERTYU", 11, 5, 2020);
+      System.out.println(cat1);
 
 
 
