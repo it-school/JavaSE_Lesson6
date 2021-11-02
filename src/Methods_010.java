@@ -51,5 +51,7 @@ class Methods_010 {
         Function(Math.PI);              // 4-я перегрузка.
         Function("B ", 2);           // 5-я перегрузка.
         Function(3, " C");           // 6-я перегрузка.
+        Function(5.6);
+
     }
 }

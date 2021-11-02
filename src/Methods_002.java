@@ -16,6 +16,5 @@ class Methods_002 {
         String str = Function();
 
         System.out.println(str);
-
     }
 }
