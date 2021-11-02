@@ -39,8 +39,8 @@ public class Main {
 
         /*
         // Создание объекта с конструктором по-умолчанию
-        Student student1 = new Student();
-        student1.setName("Student");
+        classWork.Student student1 = new classWork.Student();
+        student1.setName("classWork.Student");
         student1.setSpecialty("OOP");
         student1.setBirthday(new Date(2000, 12, 25));
 
@@ -51,7 +51,7 @@ public class Main {
         System.out.println(student1.getBirthday(2));
 
         // Создание объекта с пользовательским конструктором (с двумя параметрами)
-        Student student2 = new Student("Sidorov", "Sociology");
+        classWork.Student student2 = new classWork.Student("Sidorov", "Sociology");
         System.out.println(student2.getName());
         System.out.println(student2.getSpecialty());
 
@@ -72,18 +72,18 @@ public class Main {
         System.out.println(student2);
 
 
-        Student[] group = new Student[5];  // создание массива объектов (экземпляров класса)
+        classWork.Student[] group = new classWork.Student[5];  // создание массива объектов (экземпляров класса)
 
         String specialty = "Разработка программного обеспечения";
 
-        group[0] = new Student("Алексей", specialty);  // инициализация элементов массива объектов
-        group[1] = new Student("Иван", specialty);
-        group[2] = new Student("Александр", specialty);
-        group[3] = new Student("Наталия", specialty);
-        group[4] = new Student("Виктор", specialty);
+        group[0] = new classWork.Student("Алексей", specialty);  // инициализация элементов массива объектов
+        group[1] = new classWork.Student("Иван", specialty);
+        group[2] = new classWork.Student("Александр", specialty);
+        group[3] = new classWork.Student("Наталия", specialty);
+        group[4] = new classWork.Student("Виктор", specialty);
 
         int counter = 0;
-        for (Student student : group)
+        for (classWork.Student student : group)
         {
             System.out.println(student.getName() + " учится на специальности : " +
                     student.getSpecialty());
@@ -92,7 +92,7 @@ public class Main {
             student.setName("Name od student №" + counter++);  // присвоение нового имени полю элементов массива ссылочного типа
         }                                                       // приводит к изменению данных объектов
 
-        for (Student student : group)  // демонстрация изменений
+        for (classWork.Student student : group)  // демонстрация изменений
         {
             System.out.println(student.getName() + " учится на специальности : " +
                     student.getSpecialty());

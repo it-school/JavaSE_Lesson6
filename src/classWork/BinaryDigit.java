@@ -1,3 +1,5 @@
+package classWork;
+
 class BinaryDigit {
    public static String result = "";
 

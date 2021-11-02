@@ -9,7 +9,7 @@ class Methods_001 {
     }
 
     public static void main(String[] args) {
-        // В теле метода Main на 14-й строке, вызываем метод Procedure.
+        // В теле метода classWork.Main на 14-й строке, вызываем метод Procedure.
         Procedure();
     }
 }
