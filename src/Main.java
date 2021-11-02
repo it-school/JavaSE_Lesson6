@@ -1,6 +1,3 @@
-import classWork.Cat;
-import classWork.Person;
-
 public class Main {
    public static long getFactrorial(int n) {
       long f = 1;
@@ -15,7 +12,17 @@ public class Main {
    }
 
    public static void main(String[] args) {
+      HomeWork homeWork = new HomeWork();
+
+      int month = 1;
+      System.out.println(HomeWork.creditCalculate(300));
+      System.out.println(HomeWork.creditCalculate(300));
+      System.out.println(HomeWork.creditCalculate(300));
+      System.out.println(HomeWork.creditCalculate(300));
+
+      
       //System.out.println(getFactrorial(5));
+      /*
       long f = getFactorialRecursive(5);
       System.out.println(f);
 
@@ -24,27 +31,9 @@ public class Main {
 
       Cat cat1 = new Cat("QWERTYU", 11, 5, 2020);
       System.out.println(cat1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 /*
-
-
-
       Student student1 = new Student();
       student1.setName("John");
       student1.setAge((byte) 17);
@@ -68,7 +57,5 @@ public class Main {
       // Создать класс Книга содержащий поля: название, авторы, год издания, кол-во страниц, издательство
       // Реализовать методы: constructor (with parameters), setters(), getters(), equals(), toString()
       // Реализовать проверки корректности для числовых значений
-
-
    }
 }
